@@ -1,0 +1,39 @@
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+#app {
+  display: flex;
+  /* flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center; */
+  /* flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center; */
+}
+
+.box {
+  width: 150px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+  /* flex: 1; */
+}
+
+.red {
+  order: 4;
+}
+
+.green {
+  background: green;
+  order: 0;
+}
+
+.blue {
+  background: blue;
+  order: 1;
+}
